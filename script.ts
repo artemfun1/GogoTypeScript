@@ -279,3 +279,14 @@
 // }
 
 // getProperty(MyObj,'a')
+
+
+let w = undefined
+
+
+
+const elem = document.documentElement
+
+elem.lang = 'ru'
+
+console.log(elem.lang)
