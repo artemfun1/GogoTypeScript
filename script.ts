@@ -280,13 +280,14 @@
 
 // getProperty(MyObj,'a')
 
-
-let w = undefined
-
-
-
 const elem = document.documentElement
 
 elem.lang = 'ru'
 
-console.log(elem.lang)
+
+const div = document.querySelector<HTMLElement>(".some")!
+
+div.onclick = function (){
+  console.log('click')
+}
+

@@ -190,4 +190,7 @@
 // getProperty(MyObj,'a')
 const elem = document.documentElement;
 elem.lang = 'ru';
-console.log(elem.lang);
+const div = document.querySelector(".some");
+div.onclick = function () {
+    console.log('click');
+};
